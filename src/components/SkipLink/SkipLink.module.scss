@@ -1,0 +1,10 @@
+.skipLink {
+  height: 30px;
+  padding: 8px;
+  position: absolute;
+  transform: translateY(-100%);
+
+  &:focus {
+    transform: translate(0%);
+  }
+}

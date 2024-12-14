@@ -1,0 +1,19 @@
+.root {
+  padding-inline: clamp(1rem, 5%, 2rem);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-block-start: 1px dashed var(--accents-2);
+  padding-block: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: var(--site-width);
+
+  & > p {
+    color: var(--accents-1);
+    padding-block: 0.5rem 5rem;
+  }
+}
