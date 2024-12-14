@@ -1,0 +1,17 @@
+.group {
+  display: flex;
+  flex-direction: column;
+
+  > button,
+  > a {
+    margin-left: 0px;
+
+    @media (min-width: 480px) {
+      margin-left: 20px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
+}
