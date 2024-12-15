@@ -1,9 +1,9 @@
+import Footer from '@frontend/components/Footer';
+import Header from '@frontend/components/Header';
+import SkipLink from '@frontend/components/SkipLink';
 import type { Metadata } from 'next';
 import '@frontend/styles/global.scss';
-import SkipLink from '@frontend/components/SkipLink';
 import styles from './layout.module.scss';
-import Header from '@frontend/components/Header';
-import Footer from '@frontend/components/Footer';
 
 export const metadata: Metadata = {
   title: 'Create Next App',
